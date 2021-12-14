@@ -1,0 +1,42 @@
+/* ERROR.PHP */
+.errorPageBody {
+    text-align: center;
+}
+.errorPageH1 {
+    color: red;
+}
+
+/* HEADER.PHP */
+#topNavContainer {
+    height: 40px;
+}
+#topNav {
+    margin: 0;
+    padding: 8px 0;
+}
+
+/* MESSAGE CENTER */
+.alert-success {
+    border-top: 4px solid green;
+}
+.alert-danger {
+    border-top: 4px solid darkred;
+}
+.alert-primary {
+    border-top: 4px solid darkblue;
+}
+#itemCountAlert {
+    padding: 10px;
+}
+
+/* INVENTORY TABLE */
+/* https://css-tricks.com/position-sticky-and-table-headers/ */
+th {
+    /* background: white; */
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+tbody {
+    font-size: small;
+}
